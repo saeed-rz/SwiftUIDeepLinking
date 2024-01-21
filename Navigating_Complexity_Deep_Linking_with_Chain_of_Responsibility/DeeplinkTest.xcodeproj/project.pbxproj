@@ -20,6 +20,7 @@
 		C23F3A392B548539000A3C90 /* DeepLinkManagerFeature1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A382B548539000A3C90 /* DeepLinkManagerFeature1.swift */; };
 		C23F3A3B2B548541000A3C90 /* DeepLinkManagerFeature2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A3A2B548541000A3C90 /* DeepLinkManagerFeature2.swift */; };
 		C23F3A3E2B5490FE000A3C90 /* DeepLinkManagerFeature3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A3D2B5490FE000A3C90 /* DeepLinkManagerFeature3.swift */; };
+		C255755D2B5DA7B40033F438 /* SimpleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255755C2B5DA7B40033F438 /* SimpleDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		C23F3A3A2B548541000A3C90 /* DeepLinkManagerFeature2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManagerFeature2.swift; sourceTree = "<group>"; };
 		C23F3A3C2B5487B0000A3C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C23F3A3D2B5490FE000A3C90 /* DeepLinkManagerFeature3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManagerFeature3.swift; sourceTree = "<group>"; };
+		C255755C2B5DA7B40033F438 /* SimpleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				C23F3A382B548539000A3C90 /* DeepLinkManagerFeature1.swift */,
 				C23F3A3A2B548541000A3C90 /* DeepLinkManagerFeature2.swift */,
 				C23F3A3D2B5490FE000A3C90 /* DeepLinkManagerFeature3.swift */,
+				C255755C2B5DA7B40033F438 /* SimpleDataModel.swift */,
 			);
 			path = DeeplinkTest;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C255755D2B5DA7B40033F438 /* SimpleDataModel.swift in Sources */,
 				C23F3A3B2B548541000A3C90 /* DeepLinkManagerFeature2.swift in Sources */,
 				C23F3A2F2B54612D000A3C90 /* Feature1.swift in Sources */,
 				C23F3A3E2B5490FE000A3C90 /* DeepLinkManagerFeature3.swift in Sources */,
@@ -329,7 +333,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -359,7 +363,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

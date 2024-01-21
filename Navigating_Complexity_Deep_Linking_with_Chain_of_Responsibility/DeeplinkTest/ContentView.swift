@@ -18,7 +18,7 @@ struct ContentView: View {
                     Text("Feature 1")
                 }
                 .tag(Tab.feature1)
-            Feature2()
+            Feature2(deepLinkManager: deepLinkManager.features[1] as? DeepLinkManagerFeature2)
                 .tabItem {
                     Text("Feature 2")
                 }

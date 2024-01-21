@@ -1,1 +1,4 @@
-DeeplinkTest.xcodeproj/project.xcworkspace/xcuserdata/
+xcuserdata/
+!xcshareddata
+.DS_Store
+Navigating_Complexity_Deep_Linking_with_Chain_of_Responsibility/DeeplinkTest.xcodeproj/project.xcworkspace/xcuserdata/

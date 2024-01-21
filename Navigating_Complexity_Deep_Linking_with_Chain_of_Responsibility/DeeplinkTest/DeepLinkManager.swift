@@ -14,7 +14,7 @@ protocol DeepLinkFeatureManager {
 @Observable
 class DeepLinkManager {
     var selectedTab: Tab = .feature1
-    private var features: [DeepLinkFeatureManager]
+    var features: [DeepLinkFeatureManager]
 
     init() {
         self.features = [
