@@ -23,6 +23,6 @@ jobs:
           xcodebuild clean build \
           -project Deep_Linking_with_TCA/DeepLinkTCA.xcodeproj \
           -scheme DeepLinkTCA \
-          -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest'
-          -skipPackagePluginValidation 
+          -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+          -skipPackagePluginValidation \
           -skipMacroValidation
